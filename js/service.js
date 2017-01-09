@@ -1,5 +1,5 @@
 ﻿appRoot.service("countryService", ['$http', '$q', function ($http, $q) {
-  var urlBase = 'http://countrylistapi.apphb.com/api/';
+  var urlBase = 'https://countrylistapi.apphb.com/api/';
   return ({
       getCountries: getCountries
   });
